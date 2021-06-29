@@ -1,0 +1,39 @@
+Package: shinyresearch
+Title: Easily Install and Load 'shinyresearch' Packages
+Version: 0.1.0
+Authors@R: 
+    c(
+    person(given = "Jonathan",
+           family = "Trattner",
+           role = c("aut", "cre"),
+           email = "jdt@jdtrat.com",
+           comment = c(ORCID = "0000-0002-1097-7603")
+           ),
+    person(given = "tidyverse authors",
+           role = "ctb",
+           comment = "Startup message code adapted from tidyverse package")
+           )
+Description: 'shinyresearch' is a suite of packages designed to help clinicians, 
+    industry professionals, and academic researchers conduct human behavioral 
+    research using R with 'shiny'. This package is designed so all 'shinyresearch' 
+    packages can be installed and loaded at once.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: es
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9000
+Imports: 
+    cli,
+    crayon,
+    rstudioapi,
+    shinyland (>= 0.0.0.9000),
+    shinymarkdown (>= 0.0.0.9000),
+    shinyrandomize (>= 0.0.0.9000),
+    shinysurveys (>= 0.1.2),
+    utils
+Remotes:  
+    jdtrat/shinysurveys,
+    jdtrat/shinyland,
+    jdtrat/shinymarkdown,
+    jdtrat/shinyrandomize
